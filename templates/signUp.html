@@ -1,0 +1,50 @@
+<doctype html>
+<html lang="en">
+
+<head>
+  <title>Sign Up Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-nav  navbar-fixed-top bg-primary" role="navigation">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li><a href="/">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Community</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Events</a></li>
+       </ul>
+       <ul class="nav navbar-nav navbar-right bg-primary">
+         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+       </ul>
+     </div>
+  </nav>
+
+
+<div class="jumbotron">
+  <h2 align=center> Sign Up Form </h2>
+  <h4 align=center>Subscribe to receive updates directly to your inbox </h4>
+    <form class="form-signin" method ="post" action="/output">
+      <label for="your_name">Name</label>
+      <input name="your_name" id="inputName" class="form-control" placeholder="Name" required autofocus><br>
+      <label for="your_email">Email address</label>
+      <input type="email" name="your_email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus><br>
+      <!-- <label for="your_password">Password</label>
+      <input name="your_password" id="inputPassword" class="form-control" placeholder="Password" required><br> -->
+      <button type="submit" value="Submit" id="btnSignUp" class="btn btn-lg btn-primary btn-block">Sign up</button>
+    </form>
+</div>
+
+<div class="footer" id="copyright">
+<p>©Merge Consultancy 2019</p>
+</div>
+
+</body>
+</html>

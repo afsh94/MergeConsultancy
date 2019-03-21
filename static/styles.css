@@ -1,0 +1,129 @@
+.body {
+  font-family: "Roboto",sans-serif;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#main{
+      background: url("../static/images/main.jpg");
+      background-size: cover;
+      text-align: left;
+      height: 300px;
+      padding-right: 0;
+      font-family: 'Roboto', sans-serif;
+      font-style: bold;
+      color: white;
+      }
+
+.jumbotron{
+  margin-bottom: 0px;
+  background-color: transparent
+  }
+
+.navbar a{
+  border-style: none;
+  width:8em;
+  text-align: center;
+  color:white;
+  }
+
+  a:hover{
+    color:black
+  }
+
+.flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    /*border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+
+/* This container is needed to position the front and back side */
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+
+  /* Position the front and back side */
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+
+  /* Style the front side */
+  .flip-box-front {
+    background-color: #d3d3d3;
+    /*color: #d3d3d3;*/
+  }
+
+  /* Style the back side */
+  .flip-box-back {
+    background-color: #428bca;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+.container-fluid {
+  margin:0;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.footer {
+  position: absolute;
+  text-align: center;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #428bca;
+  color: white;
+  }
